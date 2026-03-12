@@ -18,7 +18,7 @@ torchvision-0.24.0+rocm7.13.0a20260312-cp311-cp311-win_amd64.whl
 7. (downlaod from release)
 torchaudio-2.9.0+rocm7.13.0a20260312-cp311-cp311-win_amd64.whl
 ### Install the packages
-```
+```bash
 pip install -r requirements-rocm7-gfx906.txt
 ```
-or double click the .
+or double click the `install-rocm7_standalone_gfx906.bat` with standalone `Python311` environment.
