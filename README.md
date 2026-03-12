@@ -1,5 +1,5 @@
-# gfx906_rocm7_pytorch
-Windows ROCm7 PyTorch builds for AMD Radeon VII/MI50 GPUs (GFX906) based on TheRock  
+# Windows ROCm7 PyTorch builds for AMD Radeon VII/MI50 GPUs (GFX906)
+Windows ROCm7 PyTorch Wheels Built with [TheRock](https://github.com/ROCm/TheRock/blob/main/docs/development/windows_support.md) and [AMD Nightly Builds](https://rocm.nightlies.amd.com/v2-staging/gfx906/) for GFX906
 
 ## Installation  
 ### Put all 7 files in the gfx906 folder  
