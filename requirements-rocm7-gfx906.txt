@@ -1,0 +1,6 @@
+﻿# AMD MI50 / Radeon VII (GFX906)
+--find-links ./gfx906/ --pre
+rocm[libraries,devel]
+torch
+torchvision
+torchaudio
