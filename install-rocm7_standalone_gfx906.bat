@@ -22,8 +22,6 @@ REM Set paths
 Set "PYTHON_EXE=.\Python311\python.exe"
 
 echo.
-echo Installing requirements from: %REQUIREMENTS_FILE%
-@REM echo - Installing the requirements from %REQUIREMENTS_FILE%
 echo - Updating pip package
 %PYTHON_EXE% -m pip install --upgrade pip --no-cache-dir --no-warn-script-location -i https://repo.huaweicloud.com/repository/pypi/simple/ --trusted-host https://repo.huaweicloud.com/
 if %errorlevel% neq 0 (
@@ -31,7 +29,7 @@ if %errorlevel% neq 0 (
   pause
   exit /b 1
 )
-%PYTHON_EXE% -m pip install -r requirements-rocm7-gfx906.txt --no-cache-dir --no-warn-script-location
+%PYTHON_EXE% -m pip install -r requirements-rocm7-gfx906.txt --no-cache-dir --no-warn-script-location -i https://repo.huaweicloud.com/repository/pypi/simple/ --trusted-host https://repo.huaweicloud.com/
 @REM You can enable the following for your own python environment
 @REM %PYTHON_EXE% -m pip install -r requirements.txt --no-cache-dir --no-warn-script-location -i https://repo.huaweicloud.com/repository/pypi/simple/ --trusted-host https://repo.huaweicloud.com/
 %PYTHON_EXE% -m pip install "triton-windows<3.7" --no-cache-dir --no-warn-script-location -i https://repo.huaweicloud.com/repository/pypi/simple/ --trusted-host https://repo.huaweicloud.com/
