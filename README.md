@@ -4,9 +4,9 @@ Windows ROCm7 PyTorch builds for AMD Radeon VII/MI50 GPUs (GFX906) based on TheR
 ## Installation  
 ### Put all 7 files in the gfx906 folder  
 1. https://rocm.nightlies.amd.com/v2-staging/gfx906/rocm-7.13.0a20260312.tar.gz  
-2.https://rocm.nightlies.amd.com/v2-staging/gfx906/rocm_sdk_libraries_gfx906-7.13.0a20260312-py3-none-win_amd64.whl  
-3.https://rocm.nightlies.amd.com/v2-staging/gfx906/rocm_sdk_core-7.13.0a20260312-py3-none-win_amd64.whl  
-4.https://rocm.nightlies.amd.com/v2-staging/gfx906/rocm_sdk_devel-7.13.0a20260312-py3-none-win_amd64.whl  
+2. https://rocm.nightlies.amd.com/v2-staging/gfx906/rocm_sdk_libraries_gfx906-7.13.0a20260312-py3-none-win_amd64.whl  
+3. https://rocm.nightlies.amd.com/v2-staging/gfx906/rocm_sdk_core-7.13.0a20260312-py3-none-win_amd64.whl  
+4. https://rocm.nightlies.amd.com/v2-staging/gfx906/rocm_sdk_devel-7.13.0a20260312-py3-none-win_amd64.whl  
 5. (downlaod from release)  
 torch-2.9.1+rocm7.13.0a20260312-cp311-cp311-win_amd64.whl  
 6. (downlaod from release)  
