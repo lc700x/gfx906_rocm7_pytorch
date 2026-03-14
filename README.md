@@ -2,6 +2,11 @@
 Windows ROCm7 PyTorch Wheels Built with [TheRock](https://github.com/ROCm/TheRock/blob/main/docs/development/windows_support.md) and [AMD Nightly Builds](https://rocm.nightlies.amd.com/v2-staging/gfx906/) for GFX906
 
 ## Installation  
+### Download the Repository
+Manually download the main brantch or run the following:
+```bash
+git clone https://github.com/lc700x/gfx906_windows_rocm7_pytorch/
+```
 ### Put all 7 files in the gfx906 folder  
 1. https://rocm.nightlies.amd.com/v2-staging/gfx906/rocm-7.13.0a20260312.tar.gz  
 2. https://rocm.nightlies.amd.com/v2-staging/gfx906/rocm_sdk_libraries_gfx906-7.13.0a20260312-py3-none-win_amd64.whl  
