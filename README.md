@@ -3,7 +3,7 @@ Windows ROCm7 PyTorch Wheels Built with [TheRock](https://github.com/ROCm/TheRoc
 
 ## Installation  
 ### Download the Repository
-Manually download the main brantch or run the following:
+Manually download by clicking `Code` button - `Download Zip` or run the following:
 ```bash
 git clone https://github.com/lc700x/gfx906_windows_rocm7_pytorch/
 ```
